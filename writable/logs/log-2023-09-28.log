@@ -1,0 +1,24 @@
+CRITICAL - 2023-09-28 18:27:54 --> Undefined variable $alumnos
+in APPPATH\Views\alumno\mostrar.php on line 13.
+ 1 APPPATH\Views\alumno\mostrar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alumnos', 'C:\\xampp\\htdocs\\ApliConCodeIgniter4\\app\\Views\\alumno\\mostrar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ApliConCodeIgniter4\\app\\Views\\alumno\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('alumno/mostrar', [], true)
+ 5 APPPATH\Controllers\Alumno.php(20): view('alumno/mostrar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Alumno->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumno))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ApliConCodeIgniter4\\public\\index.php')
+CRITICAL - 2023-09-28 18:28:26 --> Undefined variable $alumnos
+in APPPATH\Views\alumno\mostrar.php on line 13.
+ 1 APPPATH\Views\alumno\mostrar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alumnos', 'C:\\xampp\\htdocs\\ApliConCodeIgniter4\\app\\Views\\alumno\\mostrar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ApliConCodeIgniter4\\app\\Views\\alumno\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('alumno/mostrar', [], true)
+ 5 APPPATH\Controllers\Alumno.php(20): view('alumno/mostrar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Alumno->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumno))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ApliConCodeIgniter4\\public\\index.php')
